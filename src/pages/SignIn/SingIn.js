@@ -41,7 +41,7 @@ class SignIn extends React.Component {
     return (
       <div className="signin">
         <div className="header-image"></div>
-        <h1 className="header-title">Sign Up</h1>
+        <h1 className="header-title">Sign In</h1>
         {error}
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">

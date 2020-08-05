@@ -1,0 +1,35 @@
+.dashboard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard .header-image {
+  background-image: url("./dashboard.png");
+  width: 30%;
+  height: 30%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.header-title {
+  text-shadow: 1px 1px 1px #ff564f;
+}
+
+.dashboard .signout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  color: #ea462d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dashboard .chart {
+  width: 100%;
+}
