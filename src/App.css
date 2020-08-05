@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Sniglet", cursive;
+}
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  background-color: #dae0ec;
+  color: #324a58;
+}
+
+form {
+  width: 30%;
+}
+
+form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+form input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+form input[type="submit"] {
+  background-color: #2568ef;
+  color: white;
+  box-shadow: 0 0 3px 1px #ffe7e6;
+}
